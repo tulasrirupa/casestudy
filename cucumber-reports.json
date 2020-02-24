@@ -1,0 +1,289 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-20T08:50:36.414Z",
+        "line": 11,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "scenario-outline;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1709400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to URL",
+            "match": {
+              "location": "signup.user_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"lalitha\" and  \"saws\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"saws\"",
+                  "offset": 22
+                }
+              ],
+              "location": "signup.enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on signup button",
+            "match": {
+              "location": "signup.click_on_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "welcome page is displayed",
+            "match": {
+              "location": "signup.welcome_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-20T08:50:36.628Z",
+        "line": 12,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "scenario-outline;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 383200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to URL",
+            "match": {
+              "location": "signup.user_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"sri\" and  \"4fdv7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sri\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"4fdv7\"",
+                  "offset": 18
+                }
+              ],
+              "location": "signup.enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on signup button",
+            "match": {
+              "location": "signup.click_on_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "welcome page is displayed",
+            "match": {
+              "location": "signup.welcome_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-20T08:50:36.628Z",
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "scenario-outline;title-of-your-scenario-outline;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 254700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to URL",
+            "match": {
+              "location": "signup.user_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"japan\" and  \"korea\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"japan\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"korea\"",
+                  "offset": 20
+                }
+              ],
+              "location": "signup.enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on signup button",
+            "match": {
+              "location": "signup.click_on_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "welcome page is displayed",
+            "match": {
+              "location": "signup.welcome_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-20T08:50:36.643Z",
+        "line": 14,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "scenario-outline;title-of-your-scenario-outline;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 212500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to URL",
+            "match": {
+              "location": "signup.user_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"china\" and  \"dubai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"china\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"dubai\"",
+                  "offset": 20
+                }
+              ],
+              "location": "signup.enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on signup button",
+            "match": {
+              "location": "signup.click_on_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "welcome page is displayed",
+            "match": {
+              "location": "signup.welcome_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "scenario_outline",
+    "description": "",
+    "id": "scenario-outline",
+    "keyword": "Feature",
+    "uri": "classpath:p3/sce_outline.feature",
+    "tags": []
+  }
+]

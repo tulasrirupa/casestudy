@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T07:18:35.732Z",
+        "line": 11,
+        "name": "Successful Login",
+        "description": "",
+        "id": "login;successful-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25434952700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to write a step with",
+            "match": {
+              "location": "login.i_want_to_write_a_step_with()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1127942600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i enter \"lalitha\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "login.i_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I check for the in step",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I verify the in step",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:login/Runner.feature",
+    "tags": []
+  }
+]

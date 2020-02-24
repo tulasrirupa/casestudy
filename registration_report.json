@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T07:20:48.344Z",
+        "line": 3,
+        "name": "Successul Registration",
+        "description": "",
+        "id": "testmeapp-registration;successul-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24669419100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks on signup button",
+            "match": {
+              "location": "Register.user_clicks_on_signup_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148483300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters username as \"tulasri12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tulasri12\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.enters_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131648100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enters first name as \"tula\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tula\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Register.enters_first_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111665900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enters last name as \"sri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sri\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.enters_last_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166248400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enters password as \"tula123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tula123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187316900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enters confirm password as \"tula123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tula123\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Register.enters_confirm_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210212400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on gender female radio button",
+            "match": {
+              "location": "Register.clicks_on_gender_female_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233813100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enters email as \"tsri@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tsri@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Register.enters_email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163268700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters mobile number as {12345678}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{12345678}",
+                  "offset": 24
+                }
+              ],
+              "location": "Register.enters_mobileno_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309479700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enters dob as \"1-2-2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1-2-2022\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Register.enters_dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233977700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enters address as \"coimbatore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"coimbatore\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Register.enters_address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243450800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "selects security question clicks",
+            "match": {
+              "location": "Register.selects_security_question_clicks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229891000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enters answer as \"blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"blue\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Register.enters_answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184606600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on register button",
+            "match": {
+              "location": "Register.click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "welcome page is displayed",
+            "match": {
+              "location": "Register.welcome_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp Registration",
+    "description": "",
+    "id": "testmeapp-registration",
+    "keyword": "Feature",
+    "uri": "classpath:registration/Runner.feature",
+    "tags": []
+  }
+]

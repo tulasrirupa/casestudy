@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.02219">
+<testcase classname="scenario_outline" name="Title of your scenario outline" time="0.019078">
+<system-out><![CDATA[Given User navigates to URL.................................................passed
+And enters "lalitha" and  "saws"............................................passed
+When click on signup button.................................................passed
+Then welcome page is displayed..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="scenario_outline" name="Title of your scenario outline 2" time="0.000983">
+<system-out><![CDATA[Given User navigates to URL.................................................passed
+And enters "sri" and  "4fdv7"...............................................passed
+When click on signup button.................................................passed
+Then welcome page is displayed..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="scenario_outline" name="Title of your scenario outline 3" time="0.000705">
+<system-out><![CDATA[Given User navigates to URL.................................................passed
+And enters "japan" and  "korea".............................................passed
+When click on signup button.................................................passed
+Then welcome page is displayed..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="scenario_outline" name="Title of your scenario outline 4" time="0.001424">
+<system-out><![CDATA[Given User navigates to URL.................................................passed
+And enters "china" and  "dubai".............................................passed
+When click on signup button.................................................passed
+Then welcome page is displayed..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
